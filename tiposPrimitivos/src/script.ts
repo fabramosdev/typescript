@@ -19,7 +19,6 @@ function montaFrase(inputName: string, inputAge: string, inputProf: string) {
   return `Meu nome é ${inputName}, tenho ${inputAge} anos e sou ${inputProf}`
 }
 
-
 botao.addEventListener('click', () => {
   fraseFinal.innerHTML = montaFrase(nome.value, idade.value, profissao.value);
 })
